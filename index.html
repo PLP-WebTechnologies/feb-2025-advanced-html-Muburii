@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week2 Assignment</title>
+</head>
+<body>
+<!-- Add an ordered list with roman numerals -->
+    <section>
+        <h2>Ordered List (Roman Numerals)</h2>
+        <ol type="I">
+            <li>First Audi</li>
+            <li>Second Audi</li>
+            <li>Third Audi</li>
+            <li>Fourth Audi</li>
+            <li>Fifth Audi</li>
+        </ol>
+    </section>
+
+    <!-- Add an external image from pexels.com -->
+    <section>
+        <h2>Image Of An Audi from Pexels</h2>
+        <img src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Audi R8" width="600" >
+    </section>
+
+    <!-- Add a table of 5 contacts with; name, address, mobile and emails -->
+    <section>
+        <h2>Contacts</h2>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Muburi Brian</td>
+                    <td>8 ,Kiambu</td>
+                    <td>+254723654833</td>
+                    <td>muburib@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Waceke</td>
+                    <td>9 ,Juja </td>
+                    <td>+254734657875</td>
+                    <td>bzuff@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mike Ocharo </td>
+                    <td>789 Kisii</td>
+                    <td>+254745097457</td>
+                    <td>ocharo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Wilson Onyi</td>
+                    <td>101 Kisumu</td>
+                    <td>+254708942507</td>
+                    <td>onyi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Chris Mugwimi</td>
+                    <td>202 Nyeri</td>
+                    <td>+254746598445</td>
+                    <td>mugwimi@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown Menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+                <option value="kenya">Kenya</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Subscribe to Newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            <label for="newsletter">Yes, I want to receive updates</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+</body>
+</html>
